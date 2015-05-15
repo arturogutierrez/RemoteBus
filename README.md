@@ -1,7 +1,7 @@
 RemoteBus
 ======
 
-Small library to help to pass messages between iOS apps and extensions. RemoteBus simulates a bus between them so you can use the bus to help you to synchronize data or just pass events.
+Small library to pass messages between iOS apps and extensions. RemoteBus simulates a bus between app and extension to provide a mechanism to to synchronize data or just pass events in a easy way.
 
 Demo
 -----------
@@ -47,5 +47,22 @@ Developed By
   <img alt="Add me to Linkedin" src="http://imageshack.us/a/img41/7877/smallld.png" />
 </a>
 
+
+License
+-------
+
+    Copyright 2015 Arturo Gutiérrez Díaz-Guerra
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
 [1]: ./Art/remotebusdemo.gif
