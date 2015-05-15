@@ -35,6 +35,10 @@ Pod
 -----------
 It will be available via [CocoaPods](https://github.com/cocoapods/cocoapods) very soon.
 
+Installation
+-----------
+You can check a example in the [Example](Example) folder.
+
 Developed By
 ------------
 
