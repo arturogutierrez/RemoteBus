@@ -35,9 +35,9 @@ Pod
 -----------
 It will be available via [CocoaPods](https://github.com/cocoapods/cocoapods) very soon.
 
-Installation
+Example
 -----------
-You can check a example in the [Example](Example) folder.
+You can check a example in the [Example](Example) folder or just take a look into the [Tests](Example/RemoteBusExampleTests).
 
 Developed By
 ------------
