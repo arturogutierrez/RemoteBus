@@ -12,5 +12,7 @@
 
 @interface RBViewController : UIViewController
 
+@property(nonatomic, weak) IBOutlet UISwitch *someSwitch;
+@property(nonatomic, weak) IBOutlet UITextField *textfield;
 
 @end

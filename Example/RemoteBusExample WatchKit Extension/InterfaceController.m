@@ -1,13 +1,12 @@
 //
-//  RBViewController.m
-//  RemoteBusExample
+//  InterfaceController.m
+//  RemoteBusExample WatchKit Extension
 //
 //  Created by Arturo Gutierrez on 15/05/15.
 //  Copyright (c) 2015 Arturo Gutierrez. All rights reserved.
 //
 
-
-#import "RBViewController.h"
+#import "InterfaceController.h"
 #import "RBRemoteBus.h"
 #import "RBMessage.h"
 
@@ -18,33 +17,46 @@ NSString *const kSwitchMessageIdentifier = @"switch_message_identifier";
 NSString *const kTextWatchMessageIdentifier = @"watch_text_message_identifier";
 NSString *const kTextMessageIdentifier = @"text_message_identifier";
 
-@interface RBViewController ()
+@interface InterfaceController ()
 
 @property(nonatomic, strong) RBRemoteBus *remoteBus;
 
 @end
 
-@implementation RBViewController
+@implementation InterfaceController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)awakeWithContext:(id)context {
+    [super awakeWithContext:context];
 
     [self configureBus];
+}
 
-    [self.someSwitch addTarget:self action:@selector(switchStateChanged:) forControlEvents:UIControlEventValueChanged];
-    [self.textfield addTarget:self action:@selector(textfieldValueChanged:) forControlEvents:UIControlEventEditingChanged];
+- (void)willActivate {
+    // This method is called when watch view controller is about to be visible to user
+    [super willActivate];
+}
+
+- (void)didDeactivate {
+    // This method is called when watch view controller is no longer visible
+    [super didDeactivate];
 }
 
 #pragma mark - UI Actions
 
-- (void)switchStateChanged:(id)sender {
-    RBMessage *message = [[RBMessage alloc] initWithIdentifier:kSwitchMessageIdentifier body:@(self.someSwitch.on)];
+- (IBAction)heyButtonPessed {
+    RBMessage *message = [[RBMessage alloc] initWithIdentifier:kTextWatchMessageIdentifier body:@"Hey there!"];
 
     [self sendMessage:message remoteBus:self.remoteBus];
 }
 
-- (void)textfieldValueChanged:(id)sender {
-    RBMessage *message = [[RBMessage alloc] initWithIdentifier:kTextMessageIdentifier body:self.textfield.text];
+- (IBAction)coolButtonPressed {
+    RBMessage *message = [[RBMessage alloc] initWithIdentifier:kTextWatchMessageIdentifier body:@"Cool, it just works!"];
+
+    [self sendMessage:message remoteBus:self.remoteBus];
+}
+
+- (IBAction)switchPressed:(BOOL)on {
+    RBMessage *message = [[RBMessage alloc] initWithIdentifier:kSwitchMessageIdentifier body:@(on)];
 
     [self sendMessage:message remoteBus:self.remoteBus];
 }
@@ -54,14 +66,15 @@ NSString *const kTextMessageIdentifier = @"text_message_identifier";
 - (void)configureBus {
     // Create bus for this app group and name
     self.remoteBus = [[RBRemoteBus alloc] initWithName:kBusName appGroupIdentifier:kAppGroupIdentifier];
+
     // Listen remote events from Watch
     [self.remoteBus subscribeForIdentifier:kSwitchMessageIdentifier subscriber:^(RBMessage *message) {
         NSNumber *switchStatus = (NSNumber *) message.body;
-        [self.someSwitch setOn:[switchStatus boolValue] animated:YES];
+        [self.someSwitch setOn:[switchStatus boolValue]];
     }];
-    [self.remoteBus subscribeForIdentifier:kTextWatchMessageIdentifier subscriber:^(RBMessage *message) {
+    [self.remoteBus subscribeForIdentifier:kTextMessageIdentifier subscriber:^(RBMessage *message) {
         NSString *text = (NSString *) message.body;
-        self.textfield.text = text;
+        [self.label setText:text];
     }];
 }
 
@@ -71,5 +84,7 @@ NSString *const kTextMessageIdentifier = @"text_message_identifier";
     [remoteBus sendMessage:message];
 }
 
-
 @end
+
+
+

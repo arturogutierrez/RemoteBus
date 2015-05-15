@@ -22,6 +22,14 @@
 		49EC1B209664EE95E6085CBC /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
 		49EC1CE6BA05074CA361F7F2 /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
 		49EC1D1921693A81C49459E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC12BE4386E4A8DC10C662 /* Main.storyboard */; };
+		F5BFEEFE1B06430700D8E0FE /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFEEFD1B06430700D8E0FE /* InterfaceController.m */; };
+		F5BFEF041B06430700D8E0FE /* RemoteBusExample WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F5BFEF031B06430700D8E0FE /* RemoteBusExample WatchKit App.app */; };
+		F5BFEF0C1B06430700D8E0FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BFEF0A1B06430700D8E0FE /* Interface.storyboard */; };
+		F5BFEF111B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F5BFEEF81B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5BFEF1A1B06445300D8E0FE /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */; };
+		F5BFEF1B1B06445300D8E0FE /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */; };
+		F5BFEF1C1B06445300D8E0FE /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC16F15336CB13F81D89D8 /* RBMessage.m */; };
+		F5BFEF1D1B06445300D8E0FE /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +40,35 @@
 			remoteGlobalIDString = 49EC17F8D51CF6FBC3B78E22;
 			remoteInfo = RemoteBusExample;
 		};
+		F5BFEF051B06430700D8E0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EC19A7899D1928A22C6ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BFEF021B06430700D8E0FE;
+			remoteInfo = "RemoteBusExample WatchKit App";
+		};
+		F5BFEF0F1B06430700D8E0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EC19A7899D1928A22C6ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BFEEF71B06430700D8E0FE;
+			remoteInfo = "RemoteBusExample WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5BFEF181B06430800D8E0FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F5BFEF111B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04BE45044FC1E385BE14F137 /* Pods-RemoteBusExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBusExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBusExampleTests/Pods-RemoteBusExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +95,13 @@
 		49EC1FD2B9D1E30BD897E2EB /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
 		49EC1FFE3107F7A2EBFE8667 /* RBRemoteFolderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRemoteFolderTests.m; sourceTree = "<group>"; };
 		F593E4271B05E064000E23A0 /* RemoteBusExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RemoteBusExample.entitlements; sourceTree = "<group>"; };
+		F5BFEEF81B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RemoteBusExample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BFEEFB1B06430700D8E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BFEEFC1B06430700D8E0FE /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		F5BFEEFD1B06430700D8E0FE /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		F5BFEF031B06430700D8E0FE /* RemoteBusExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RemoteBusExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BFEF091B06430700D8E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BFEF0B1B06430700D8E0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +117,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				472D6ED9C8FDF674ED523032 /* libPods-RemoteBusExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BFEEF51B06430700D8E0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +169,8 @@
 				49EC17D368EA1947D532E14A /* Products */,
 				49EC1C3D6691C5FD2FCA8B7E /* RemoteBusExample */,
 				49EC12DC8AAA6241DE7E07C4 /* RemoteBusExampleTests */,
+				F5BFEEF91B06430700D8E0FE /* RemoteBusExample WatchKit Extension */,
+				F5BFEF071B06430700D8E0FE /* RemoteBusExample WatchKit App */,
 				49EC131DED37B8C75B772BAD /* RemoteBus */,
 				7C12BF8080DAB34763660E35 /* Pods */,
 				2BD7EC043F29FEC206D70B14 /* Frameworks */,
@@ -130,6 +182,8 @@
 			children = (
 				49EC16ACD341B344A9D66EF6 /* RemoteBusExample.app */,
 				49EC1B3E9A2C19289AF3AC7E /* RemoteBusExampleTests.xctest */,
+				F5BFEEF81B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex */,
+				F5BFEF031B06430700D8E0FE /* RemoteBusExample WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +228,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F5BFEEF91B06430700D8E0FE /* RemoteBusExample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFEEFC1B06430700D8E0FE /* InterfaceController.h */,
+				F5BFEEFD1B06430700D8E0FE /* InterfaceController.m */,
+				F5BFEEFA1B06430700D8E0FE /* Supporting Files */,
+			);
+			path = "RemoteBusExample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F5BFEEFA1B06430700D8E0FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFEEFB1B06430700D8E0FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5BFEF071B06430700D8E0FE /* RemoteBusExample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFEF0A1B06430700D8E0FE /* Interface.storyboard */,
+				F5BFEF081B06430700D8E0FE /* Supporting Files */,
+			);
+			path = "RemoteBusExample WatchKit App";
+			sourceTree = "<group>";
+		};
+		F5BFEF081B06430700D8E0FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFEF091B06430700D8E0FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,10 +273,12 @@
 				49EC17FD95BC555CF441BEAA /* Sources */,
 				49EC1A0530FAD38B80F24BC4 /* Frameworks */,
 				49EC132E6D425B04441622A8 /* Resources */,
+				F5BFEF181B06430800D8E0FE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F5BFEF101B06430700D8E0FE /* PBXTargetDependency */,
 			);
 			name = RemoteBusExample;
 			productName = RemoteBusExample;
@@ -214,6 +305,39 @@
 			productReference = 49EC1B3E9A2C19289AF3AC7E /* RemoteBusExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F5BFEEF71B06430700D8E0FE /* RemoteBusExample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BFEF171B06430800D8E0FE /* Build configuration list for PBXNativeTarget "RemoteBusExample WatchKit Extension" */;
+			buildPhases = (
+				F5BFEEF41B06430700D8E0FE /* Sources */,
+				F5BFEEF51B06430700D8E0FE /* Frameworks */,
+				F5BFEEF61B06430700D8E0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BFEF061B06430700D8E0FE /* PBXTargetDependency */,
+			);
+			name = "RemoteBusExample WatchKit Extension";
+			productName = "RemoteBusExample WatchKit Extension";
+			productReference = F5BFEEF81B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F5BFEF021B06430700D8E0FE /* RemoteBusExample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BFEF161B06430800D8E0FE /* Build configuration list for PBXNativeTarget "RemoteBusExample WatchKit App" */;
+			buildPhases = (
+				F5BFEF011B06430700D8E0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RemoteBusExample WatchKit App";
+			productName = "RemoteBusExample WatchKit App";
+			productReference = F5BFEF031B06430700D8E0FE /* RemoteBusExample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -231,6 +355,13 @@
 							};
 						};
 					};
+					F5BFEEF71B06430700D8E0FE = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 93ZKMBE83V;
+					};
+					F5BFEF021B06430700D8E0FE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 49EC165B1CF33FFDE3D2B8DD /* Build configuration list for PBXProject "RemoteBusExample" */;
@@ -239,6 +370,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 49EC17A2E547CE6DE8A729D1;
 			productRefGroup = 49EC17D368EA1947D532E14A /* Products */;
@@ -247,6 +379,8 @@
 			targets = (
 				49EC17F8D51CF6FBC3B78E22 /* RemoteBusExample */,
 				49EC1A293DE34FDD7109D4F2 /* RemoteBusExampleTests */,
+				F5BFEEF71B06430700D8E0FE /* RemoteBusExample WatchKit Extension */,
+				F5BFEF021B06430700D8E0FE /* RemoteBusExample WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +398,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BFEEF61B06430700D8E0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BFEF041B06430700D8E0FE /* RemoteBusExample WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BFEF011B06430700D8E0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BFEF0C1B06430700D8E0FE /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +480,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5BFEEF41B06430700D8E0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BFEF1A1B06445300D8E0FE /* RBRemoteBus.m in Sources */,
+				F5BFEF1D1B06445300D8E0FE /* RBSupportChecker.m in Sources */,
+				F5BFEF1B1B06445300D8E0FE /* RBRemoteFolder.m in Sources */,
+				F5BFEEFE1B06430700D8E0FE /* InterfaceController.m in Sources */,
+				F5BFEF1C1B06445300D8E0FE /* RBMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -337,6 +499,16 @@
 			isa = PBXTargetDependency;
 			target = 49EC17F8D51CF6FBC3B78E22 /* RemoteBusExample */;
 			targetProxy = 49EC120B2672876682C05DCE /* PBXContainerItemProxy */;
+		};
+		F5BFEF061B06430700D8E0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BFEF021B06430700D8E0FE /* RemoteBusExample WatchKit App */;
+			targetProxy = F5BFEF051B06430700D8E0FE /* PBXContainerItemProxy */;
+		};
+		F5BFEF101B06430700D8E0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BFEEF71B06430700D8E0FE /* RemoteBusExample WatchKit Extension */;
+			targetProxy = F5BFEF0F1B06430700D8E0FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,6 +519,14 @@
 				49EC11A25631F37BA0080AE3 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5BFEF0A1B06430700D8E0FE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BFEF0B1B06430700D8E0FE /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -492,6 +672,66 @@
 			};
 			name = Release;
 		};
+		F5BFEF121B06430800D8E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RemoteBusExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5BFEF131B06430800D8E0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "RemoteBusExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5BFEF141B06430800D8E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = RemoteBusExample_WatchKit_Extension;
+				INFOPLIST_FILE = "RemoteBusExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F5BFEF151B06430800D8E0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = RemoteBusExample_WatchKit_Extension;
+				INFOPLIST_FILE = "RemoteBusExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +758,24 @@
 			buildConfigurations = (
 				49EC180D54AA72A48645941B /* Debug */,
 				49EC1E16BEECDE6D420A8B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BFEF161B06430800D8E0FE /* Build configuration list for PBXNativeTarget "RemoteBusExample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BFEF141B06430800D8E0FE /* Debug */,
+				F5BFEF151B06430800D8E0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BFEF171B06430800D8E0FE /* Build configuration list for PBXNativeTarget "RemoteBusExample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BFEF121B06430800D8E0FE /* Debug */,
+				F5BFEF131B06430800D8E0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
