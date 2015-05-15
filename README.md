@@ -7,4 +7,30 @@ Demo
 -----------
 ![Demo][1]
 
-[1]: ./Art/remotebusdemo.gif
+
+Usage
+-----------
+```objc
+    // Create bus for this app group and name
+    remoteBus = [[RBRemoteBus alloc] initWithName:@"OneBus" appGroupIdentifier:@"group.com.arturogutierrez.remotebus"];
+
+    // Subscribe for remote events
+    [remoteBus subscribeForIdentifier:@"SomeEventIdentifier" subscriber:^(RBMessage *message) {
+        NSString *text = (NSString *) message.body;
+        [self.label setText:text];
+    }];
+    
+    // Pass an event
+    RBMessage *message = [[RBMessage alloc] initWithIdentifier:@"AnotherEventIdentifier" body:@"Hey there!"];
+    [remoteBus sendMessage:message];
+```
+
+Installation
+-----------
+* Download the source files (Classes folder) and add to your project or install it via [CocoaPods](https://github.com/cocoapods/cocoapods) 
+* Configure your app and extension to use same app group container. You can learn how to do it [here](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW19) or [here](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html).
+
+
+Pod
+-----------
+It will be available via [CocoaPods](https://github.com/cocoapods/cocoapods) very soon.
