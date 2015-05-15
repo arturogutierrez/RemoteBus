@@ -1,0 +1,4 @@
+
+target 'RemoteBusExampleTests', :exclusive => true do
+  pod 'OCMockito'
+end

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472D6ED9C8FDF674ED523032 /* libPods-RemoteBusExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D3B762CDB84ACBBC398539 /* libPods-RemoteBusExampleTests.a */; };
+		49EC1193135D68F09ED68068 /* RBRemoteFolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1FFE3107F7A2EBFE8667 /* RBRemoteFolderTests.m */; };
+		49EC125DB7014A1F12DB2209 /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC16F15336CB13F81D89D8 /* RBMessage.m */; };
+		49EC137CB6CF75AF31C757CF /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1831B442B0E8289E3F2F /* RBViewController.m */; };
+		49EC13A1AA51D8FA91C89ACB /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1021238BF238E1DDDDEC /* RBAppDelegate.m */; };
+		49EC13DDD4186E52B030E564 /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */; };
+		49EC15771835C4B73131008C /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */; };
+		49EC16EE36F5090A2C919FA2 /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */; };
+		49EC17180B4EFC2A9E2D4772 /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */; };
+		49EC171FB6510F53FB3737EB /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC16F15336CB13F81D89D8 /* RBMessage.m */; };
+		49EC17EA8E7F633269D14440 /* RBMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1DA070DF140CCF2BE63B /* RBMessageTests.m */; };
+		49EC1892210E8921EBBBD134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC109FD9ABBF98923C0ED0 /* main.m */; };
+		49EC1B209664EE95E6085CBC /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
+		49EC1CE6BA05074CA361F7F2 /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
+		49EC1D1921693A81C49459E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC12BE4386E4A8DC10C662 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49EC120B2672876682C05DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EC19A7899D1928A22C6ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49EC17F8D51CF6FBC3B78E22;
+			remoteInfo = RemoteBusExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BE45044FC1E385BE14F137 /* Pods-RemoteBusExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBusExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBusExampleTests/Pods-RemoteBusExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08D3B762CDB84ACBBC398539 /* libPods-RemoteBusExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RemoteBusExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31670E04D15206CDB48D7562 /* Pods-RemoteBusExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBusExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBusExampleTests/Pods-RemoteBusExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		49EC1021238BF238E1DDDDEC /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
+		49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBRemoteBus.m; path = ../../Classes/RBRemoteBus.m; sourceTree = "<group>"; };
+		49EC109FD9ABBF98923C0ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49EC119322250D1976D32698 /* RBRemoteBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBRemoteBus.h; path = ../../Classes/RBRemoteBus.h; sourceTree = "<group>"; };
+		49EC11A25631F37BA0080AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49EC1575A6FFA35D05A8848B /* RBRemoteFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBRemoteFolder.h; path = ../../Classes/RBRemoteFolder.h; sourceTree = "<group>"; };
+		49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSupportChecker.m; sourceTree = "<group>"; };
+		49EC16ACD341B344A9D66EF6 /* RemoteBusExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteBusExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EC16D4013576FC8B16A9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		49EC16F15336CB13F81D89D8 /* RBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMessage.m; sourceTree = "<group>"; };
+		49EC1747B3B7ACCE5F046283 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
+		49EC1831B442B0E8289E3F2F /* RBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
+		49EC197CCB7E65A6D5E03B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		49EC1AE08767C19E12EEA143 /* RBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMessage.h; sourceTree = "<group>"; };
+		49EC1B3E9A2C19289AF3AC7E /* RemoteBusExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteBusExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EC1CB4325574213872A446 /* RBSupportChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSupportChecker.h; sourceTree = "<group>"; };
+		49EC1DA070DF140CCF2BE63B /* RBMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMessageTests.m; sourceTree = "<group>"; };
+		49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBRemoteFolder.m; path = ../../Classes/RBRemoteFolder.m; sourceTree = "<group>"; };
+		49EC1FD2B9D1E30BD897E2EB /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
+		49EC1FFE3107F7A2EBFE8667 /* RBRemoteFolderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRemoteFolderTests.m; sourceTree = "<group>"; };
+		F593E4271B05E064000E23A0 /* RemoteBusExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RemoteBusExample.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49EC1A0530FAD38B80F24BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EC1E37E7B3AF7B73F7E186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472D6ED9C8FDF674ED523032 /* libPods-RemoteBusExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD7EC043F29FEC206D70B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D3B762CDB84ACBBC398539 /* libPods-RemoteBusExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49EC12DC8AAA6241DE7E07C4 /* RemoteBusExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				49EC1A861CDE7A862B6EFCD1 /* Supporting Files */,
+				49EC1FFE3107F7A2EBFE8667 /* RBRemoteFolderTests.m */,
+				49EC1DA070DF140CCF2BE63B /* RBMessageTests.m */,
+			);
+			path = RemoteBusExampleTests;
+			sourceTree = "<group>";
+		};
+		49EC131DED37B8C75B772BAD /* RemoteBus */ = {
+			isa = PBXGroup;
+			children = (
+				49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */,
+				49EC119322250D1976D32698 /* RBRemoteBus.h */,
+				49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */,
+				49EC1575A6FFA35D05A8848B /* RBRemoteFolder.h */,
+				49EC16F15336CB13F81D89D8 /* RBMessage.m */,
+				49EC1AE08767C19E12EEA143 /* RBMessage.h */,
+				49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */,
+				49EC1CB4325574213872A446 /* RBSupportChecker.h */,
+			);
+			path = RemoteBus;
+			sourceTree = "<group>";
+		};
+		49EC17A2E547CE6DE8A729D1 = {
+			isa = PBXGroup;
+			children = (
+				49EC17D368EA1947D532E14A /* Products */,
+				49EC1C3D6691C5FD2FCA8B7E /* RemoteBusExample */,
+				49EC12DC8AAA6241DE7E07C4 /* RemoteBusExampleTests */,
+				49EC131DED37B8C75B772BAD /* RemoteBus */,
+				7C12BF8080DAB34763660E35 /* Pods */,
+				2BD7EC043F29FEC206D70B14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49EC17D368EA1947D532E14A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49EC16ACD341B344A9D66EF6 /* RemoteBusExample.app */,
+				49EC1B3E9A2C19289AF3AC7E /* RemoteBusExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49EC1A81447DA45C6417A419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EC197CCB7E65A6D5E03B9B /* Info.plist */,
+				49EC109FD9ABBF98923C0ED0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49EC1A861CDE7A862B6EFCD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EC16D4013576FC8B16A9D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49EC1C3D6691C5FD2FCA8B7E /* RemoteBusExample */ = {
+			isa = PBXGroup;
+			children = (
+				F593E4271B05E064000E23A0 /* RemoteBusExample.entitlements */,
+				49EC1A81447DA45C6417A419 /* Supporting Files */,
+				49EC1747B3B7ACCE5F046283 /* RBAppDelegate.h */,
+				49EC1021238BF238E1DDDDEC /* RBAppDelegate.m */,
+				49EC12BE4386E4A8DC10C662 /* Main.storyboard */,
+				49EC1FD2B9D1E30BD897E2EB /* RBViewController.h */,
+				49EC1831B442B0E8289E3F2F /* RBViewController.m */,
+			);
+			path = RemoteBusExample;
+			sourceTree = "<group>";
+		};
+		7C12BF8080DAB34763660E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04BE45044FC1E385BE14F137 /* Pods-RemoteBusExampleTests.debug.xcconfig */,
+				31670E04D15206CDB48D7562 /* Pods-RemoteBusExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49EC17F8D51CF6FBC3B78E22 /* RemoteBusExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EC12BB6EA367E1384FA0F6 /* Build configuration list for PBXNativeTarget "RemoteBusExample" */;
+			buildPhases = (
+				49EC17FD95BC555CF441BEAA /* Sources */,
+				49EC1A0530FAD38B80F24BC4 /* Frameworks */,
+				49EC132E6D425B04441622A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteBusExample;
+			productName = RemoteBusExample;
+			productReference = 49EC16ACD341B344A9D66EF6 /* RemoteBusExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49EC1A293DE34FDD7109D4F2 /* RemoteBusExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EC17B7C6B10EBD57A4B421 /* Build configuration list for PBXNativeTarget "RemoteBusExampleTests" */;
+			buildPhases = (
+				65645FF18A8DE00721FE005C /* Check Pods Manifest.lock */,
+				49EC1EFA9071C4A7A0DAD90D /* Sources */,
+				49EC1E37E7B3AF7B73F7E186 /* Frameworks */,
+				49EC1630C70041E7B96FBB58 /* Resources */,
+				29389500261C045CDD2819F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49EC1740F28BC9A1DD194339 /* PBXTargetDependency */,
+			);
+			name = RemoteBusExampleTests;
+			productName = RemoteBusExampleTests;
+			productReference = 49EC1B3E9A2C19289AF3AC7E /* RemoteBusExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49EC19A7899D1928A22C6ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				ORGANIZATIONNAME = "Arturo Gutierrez";
+				TargetAttributes = {
+					49EC17F8D51CF6FBC3B78E22 = {
+						DevelopmentTeam = 93ZKMBE83V;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 49EC165B1CF33FFDE3D2B8DD /* Build configuration list for PBXProject "RemoteBusExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49EC17A2E547CE6DE8A729D1;
+			productRefGroup = 49EC17D368EA1947D532E14A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49EC17F8D51CF6FBC3B78E22 /* RemoteBusExample */,
+				49EC1A293DE34FDD7109D4F2 /* RemoteBusExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49EC132E6D425B04441622A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EC1D1921693A81C49459E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EC1630C70041E7B96FBB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29389500261C045CDD2819F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteBusExampleTests/Pods-RemoteBusExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65645FF18A8DE00721FE005C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49EC17FD95BC555CF441BEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EC1892210E8921EBBBD134 /* main.m in Sources */,
+				49EC13A1AA51D8FA91C89ACB /* RBAppDelegate.m in Sources */,
+				49EC137CB6CF75AF31C757CF /* RBViewController.m in Sources */,
+				49EC13DDD4186E52B030E564 /* RBRemoteBus.m in Sources */,
+				49EC17180B4EFC2A9E2D4772 /* RBRemoteFolder.m in Sources */,
+				49EC171FB6510F53FB3737EB /* RBMessage.m in Sources */,
+				49EC1CE6BA05074CA361F7F2 /* RBSupportChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EC1EFA9071C4A7A0DAD90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EC1193135D68F09ED68068 /* RBRemoteFolderTests.m in Sources */,
+				49EC17EA8E7F633269D14440 /* RBMessageTests.m in Sources */,
+				49EC16EE36F5090A2C919FA2 /* RBRemoteFolder.m in Sources */,
+				49EC125DB7014A1F12DB2209 /* RBMessage.m in Sources */,
+				49EC15771835C4B73131008C /* RBRemoteBus.m in Sources */,
+				49EC1B209664EE95E6085CBC /* RBSupportChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49EC1740F28BC9A1DD194339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49EC17F8D51CF6FBC3B78E22 /* RemoteBusExample */;
+			targetProxy = 49EC120B2672876682C05DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49EC12BE4386E4A8DC10C662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EC11A25631F37BA0080AE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49EC116ADC3F030B07DA38CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = RemoteBusExample/RemoteBusExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49EC15A4FABB649422C3AB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RemoteBusExample/RemoteBusExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RemoteBusExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		49EC180D54AA72A48645941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BE45044FC1E385BE14F137 /* Pods-RemoteBusExampleTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RemoteBusExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49EC193F8C9F5B28C06B1E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = RemoteBusExample/RemoteBusExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49EC1D3E6C7762531E74EC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RemoteBusExample/RemoteBusExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RemoteBusExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		49EC1E16BEECDE6D420A8B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31670E04D15206CDB48D7562 /* Pods-RemoteBusExampleTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RemoteBusExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EC12BB6EA367E1384FA0F6 /* Build configuration list for PBXNativeTarget "RemoteBusExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EC15A4FABB649422C3AB66 /* Debug */,
+				49EC1D3E6C7762531E74EC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EC165B1CF33FFDE3D2B8DD /* Build configuration list for PBXProject "RemoteBusExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EC193F8C9F5B28C06B1E42 /* Debug */,
+				49EC116ADC3F030B07DA38CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EC17B7C6B10EBD57A4B421 /* Build configuration list for PBXNativeTarget "RemoteBusExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EC180D54AA72A48645941B /* Debug */,
+				49EC1E16BEECDE6D420A8B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49EC19A7899D1928A22C6ABD /* Project object */;
+}
