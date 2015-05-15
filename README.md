@@ -34,3 +34,18 @@ Installation
 Pod
 -----------
 It will be available via [CocoaPods](https://github.com/cocoapods/cocoapods) very soon.
+
+Developed By
+------------
+
+* Arturo Gutiérrez Díaz-Guerra - <arturo.gutierrez@gmail.com>
+
+<a href="https://twitter.com/arturogdg">
+  <img alt="Follow me on Twitter" src="http://imageshack.us/a/img812/3923/smallth.png" />
+</a>
+<a href="http://www.linkedin.com/in/arturogutierrezdiazguerra">
+  <img alt="Add me to Linkedin" src="http://imageshack.us/a/img41/7877/smallld.png" />
+</a>
+
+
+[1]: ./Art/remotebusdemo.gif
