@@ -43,6 +43,18 @@
     return message;
 }
 
+- (void)clear {
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *folderPath = self.folderUrl.path;
+
+    NSArray *files = [fileManager contentsOfDirectoryAtPath:folderPath error:nil];
+    for (NSString *fileName in files) {
+        NSString *filePath = [folderPath stringByAppendingPathComponent:fileName];
+        [fileManager removeItemAtPath:filePath error:nil];
+    }
+}
+
+
 #pragma mark - Private Methods
 
 - (void)configureBusFolder:(NSURL *)appGroupUrl {

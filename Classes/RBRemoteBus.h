@@ -19,4 +19,6 @@ typedef void (^subscriberBlock)(RBMessage *message);
 
 - (void)unsubscribeForIdentifier:(NSString *)identifier;
 
+- (void)clearAllMessages;
+
 @end

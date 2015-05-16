@@ -81,6 +81,11 @@ void darwinNotificationCallback(CFNotificationCenterRef center, void *observer, 
     [self unregisterForRemoteNotifications:identifier];
 }
 
+- (void)clearAllMessages {
+    [self.remoteFolder clear];
+}
+
+
 #pragma mark - Private Methods
 
 - (NSURL *)groupContainerUrlForAppGroupIdentifier:(NSString *)appGroupIdentifier {

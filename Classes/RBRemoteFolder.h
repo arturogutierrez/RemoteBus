@@ -16,4 +16,6 @@
 
 - (RBMessage *)messageForIdentifier:(NSString *)identifier;
 
+- (void)clear;
+
 @end

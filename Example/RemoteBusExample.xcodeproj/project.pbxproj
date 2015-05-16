@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		472D6ED9C8FDF674ED523032 /* libPods-RemoteBusExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D3B762CDB84ACBBC398539 /* libPods-RemoteBusExampleTests.a */; };
 		49EC1193135D68F09ED68068 /* RBRemoteFolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1FFE3107F7A2EBFE8667 /* RBRemoteFolderTests.m */; };
-		49EC125DB7014A1F12DB2209 /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC16F15336CB13F81D89D8 /* RBMessage.m */; };
 		49EC137CB6CF75AF31C757CF /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1831B442B0E8289E3F2F /* RBViewController.m */; };
 		49EC13A1AA51D8FA91C89ACB /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1021238BF238E1DDDDEC /* RBAppDelegate.m */; };
-		49EC13DDD4186E52B030E564 /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */; };
-		49EC15771835C4B73131008C /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */; };
-		49EC16EE36F5090A2C919FA2 /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */; };
-		49EC17180B4EFC2A9E2D4772 /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */; };
-		49EC171FB6510F53FB3737EB /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC16F15336CB13F81D89D8 /* RBMessage.m */; };
 		49EC17EA8E7F633269D14440 /* RBMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1DA070DF140CCF2BE63B /* RBMessageTests.m */; };
 		49EC1892210E8921EBBBD134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC109FD9ABBF98923C0ED0 /* main.m */; };
-		49EC1B209664EE95E6085CBC /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
-		49EC1CE6BA05074CA361F7F2 /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
 		49EC1D1921693A81C49459E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC12BE4386E4A8DC10C662 /* Main.storyboard */; };
 		F5BFEEFE1B06430700D8E0FE /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFEEFD1B06430700D8E0FE /* InterfaceController.m */; };
 		F5BFEF041B06430700D8E0FE /* RemoteBusExample WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F5BFEF031B06430700D8E0FE /* RemoteBusExample WatchKit App.app */; };
 		F5BFEF0C1B06430700D8E0FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BFEF0A1B06430700D8E0FE /* Interface.storyboard */; };
 		F5BFEF111B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F5BFEEF81B06430700D8E0FE /* RemoteBusExample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F5BFEF1A1B06445300D8E0FE /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */; };
-		F5BFEF1B1B06445300D8E0FE /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */; };
-		F5BFEF1C1B06445300D8E0FE /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC16F15336CB13F81D89D8 /* RBMessage.m */; };
-		F5BFEF1D1B06445300D8E0FE /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */; };
+		F5D9795B1B076817005B550E /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979541B076817005B550E /* RBMessage.m */; };
+		F5D9795C1B076817005B550E /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979541B076817005B550E /* RBMessage.m */; };
+		F5D9795D1B076817005B550E /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979561B076817005B550E /* RBRemoteBus.m */; };
+		F5D9795E1B076817005B550E /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979561B076817005B550E /* RBRemoteBus.m */; };
+		F5D9795F1B076817005B550E /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979581B076817005B550E /* RBRemoteFolder.m */; };
+		F5D979601B076817005B550E /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979581B076817005B550E /* RBRemoteFolder.m */; };
+		F5D979611B076817005B550E /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9795A1B076817005B550E /* RBSupportChecker.m */; };
+		F5D979621B076817005B550E /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9795A1B076817005B550E /* RBSupportChecker.m */; };
+		F5D979631B0768F2005B550E /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979541B076817005B550E /* RBMessage.m */; };
+		F5D979641B0768F2005B550E /* RBRemoteBus.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979561B076817005B550E /* RBRemoteBus.m */; };
+		F5D979651B0768F2005B550E /* RBRemoteFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D979581B076817005B550E /* RBRemoteFolder.m */; };
+		F5D979661B0768F2005B550E /* RBSupportChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9795A1B076817005B550E /* RBSupportChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,23 +75,15 @@
 		08D3B762CDB84ACBBC398539 /* libPods-RemoteBusExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RemoteBusExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31670E04D15206CDB48D7562 /* Pods-RemoteBusExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBusExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBusExampleTests/Pods-RemoteBusExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		49EC1021238BF238E1DDDDEC /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
-		49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBRemoteBus.m; path = ../../Classes/RBRemoteBus.m; sourceTree = "<group>"; };
 		49EC109FD9ABBF98923C0ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49EC119322250D1976D32698 /* RBRemoteBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBRemoteBus.h; path = ../../Classes/RBRemoteBus.h; sourceTree = "<group>"; };
 		49EC11A25631F37BA0080AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		49EC1575A6FFA35D05A8848B /* RBRemoteFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBRemoteFolder.h; path = ../../Classes/RBRemoteFolder.h; sourceTree = "<group>"; };
-		49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBSupportChecker.m; path = ../../Classes/RBSupportChecker.m; sourceTree = "<group>"; };
 		49EC16ACD341B344A9D66EF6 /* RemoteBusExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteBusExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EC16D4013576FC8B16A9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		49EC16F15336CB13F81D89D8 /* RBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBMessage.m; path = ../../Classes/RBMessage.m; sourceTree = "<group>"; };
 		49EC1747B3B7ACCE5F046283 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
 		49EC1831B442B0E8289E3F2F /* RBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
 		49EC197CCB7E65A6D5E03B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		49EC1AE08767C19E12EEA143 /* RBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBMessage.h; path = ../../Classes/RBMessage.h; sourceTree = "<group>"; };
 		49EC1B3E9A2C19289AF3AC7E /* RemoteBusExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteBusExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49EC1CB4325574213872A446 /* RBSupportChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBSupportChecker.h; path = ../../Classes/RBSupportChecker.h; sourceTree = "<group>"; };
 		49EC1DA070DF140CCF2BE63B /* RBMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMessageTests.m; sourceTree = "<group>"; };
-		49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBRemoteFolder.m; path = ../../Classes/RBRemoteFolder.m; sourceTree = "<group>"; };
 		49EC1FD2B9D1E30BD897E2EB /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
 		49EC1FFE3107F7A2EBFE8667 /* RBRemoteFolderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRemoteFolderTests.m; sourceTree = "<group>"; };
 		F593E4271B05E064000E23A0 /* RemoteBusExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RemoteBusExample.entitlements; sourceTree = "<group>"; };
@@ -102,6 +94,14 @@
 		F5BFEF031B06430700D8E0FE /* RemoteBusExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RemoteBusExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BFEF091B06430700D8E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BFEF0B1B06430700D8E0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F5D979531B076817005B550E /* RBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMessage.h; sourceTree = "<group>"; };
+		F5D979541B076817005B550E /* RBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMessage.m; sourceTree = "<group>"; };
+		F5D979551B076817005B550E /* RBRemoteBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRemoteBus.h; sourceTree = "<group>"; };
+		F5D979561B076817005B550E /* RBRemoteBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRemoteBus.m; sourceTree = "<group>"; };
+		F5D979571B076817005B550E /* RBRemoteFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRemoteFolder.h; sourceTree = "<group>"; };
+		F5D979581B076817005B550E /* RBRemoteFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRemoteFolder.m; sourceTree = "<group>"; };
+		F5D979591B076817005B550E /* RBSupportChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSupportChecker.h; sourceTree = "<group>"; };
+		F5D9795A1B076817005B550E /* RBSupportChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSupportChecker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,30 +148,15 @@
 			path = RemoteBusExampleTests;
 			sourceTree = "<group>";
 		};
-		49EC131DED37B8C75B772BAD /* RemoteBus */ = {
-			isa = PBXGroup;
-			children = (
-				49EC10959B95F0393B2A55D1 /* RBRemoteBus.m */,
-				49EC119322250D1976D32698 /* RBRemoteBus.h */,
-				49EC1EA65E9BBD91CACDC8E3 /* RBRemoteFolder.m */,
-				49EC1575A6FFA35D05A8848B /* RBRemoteFolder.h */,
-				49EC16F15336CB13F81D89D8 /* RBMessage.m */,
-				49EC1AE08767C19E12EEA143 /* RBMessage.h */,
-				49EC15945D0FC23FD6F20EF9 /* RBSupportChecker.m */,
-				49EC1CB4325574213872A446 /* RBSupportChecker.h */,
-			);
-			path = RemoteBus;
-			sourceTree = "<group>";
-		};
 		49EC17A2E547CE6DE8A729D1 = {
 			isa = PBXGroup;
 			children = (
+				F5D979521B076817005B550E /* Classes */,
 				49EC17D368EA1947D532E14A /* Products */,
 				49EC1C3D6691C5FD2FCA8B7E /* RemoteBusExample */,
 				49EC12DC8AAA6241DE7E07C4 /* RemoteBusExampleTests */,
 				F5BFEEF91B06430700D8E0FE /* RemoteBusExample WatchKit Extension */,
 				F5BFEF071B06430700D8E0FE /* RemoteBusExample WatchKit App */,
-				49EC131DED37B8C75B772BAD /* RemoteBus */,
 				7C12BF8080DAB34763660E35 /* Pods */,
 				2BD7EC043F29FEC206D70B14 /* Frameworks */,
 			);
@@ -261,6 +246,22 @@
 				F5BFEF091B06430700D8E0FE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D979521B076817005B550E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5D979531B076817005B550E /* RBMessage.h */,
+				F5D979541B076817005B550E /* RBMessage.m */,
+				F5D979551B076817005B550E /* RBRemoteBus.h */,
+				F5D979561B076817005B550E /* RBRemoteBus.m */,
+				F5D979571B076817005B550E /* RBRemoteFolder.h */,
+				F5D979581B076817005B550E /* RBRemoteFolder.m */,
+				F5D979591B076817005B550E /* RBSupportChecker.h */,
+				F5D9795A1B076817005B550E /* RBSupportChecker.m */,
+			);
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,12 +459,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				49EC1892210E8921EBBBD134 /* main.m in Sources */,
+				F5D9795F1B076817005B550E /* RBRemoteFolder.m in Sources */,
 				49EC13A1AA51D8FA91C89ACB /* RBAppDelegate.m in Sources */,
+				F5D9795D1B076817005B550E /* RBRemoteBus.m in Sources */,
+				F5D979611B076817005B550E /* RBSupportChecker.m in Sources */,
 				49EC137CB6CF75AF31C757CF /* RBViewController.m in Sources */,
-				49EC13DDD4186E52B030E564 /* RBRemoteBus.m in Sources */,
-				49EC17180B4EFC2A9E2D4772 /* RBRemoteFolder.m in Sources */,
-				49EC171FB6510F53FB3737EB /* RBMessage.m in Sources */,
-				49EC1CE6BA05074CA361F7F2 /* RBSupportChecker.m in Sources */,
+				F5D9795B1B076817005B550E /* RBMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,12 +472,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D979631B0768F2005B550E /* RBMessage.m in Sources */,
+				F5D979651B0768F2005B550E /* RBRemoteFolder.m in Sources */,
 				49EC1193135D68F09ED68068 /* RBRemoteFolderTests.m in Sources */,
+				F5D979661B0768F2005B550E /* RBSupportChecker.m in Sources */,
+				F5D979641B0768F2005B550E /* RBRemoteBus.m in Sources */,
 				49EC17EA8E7F633269D14440 /* RBMessageTests.m in Sources */,
-				49EC16EE36F5090A2C919FA2 /* RBRemoteFolder.m in Sources */,
-				49EC125DB7014A1F12DB2209 /* RBMessage.m in Sources */,
-				49EC15771835C4B73131008C /* RBRemoteBus.m in Sources */,
-				49EC1B209664EE95E6085CBC /* RBSupportChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +485,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5BFEF1A1B06445300D8E0FE /* RBRemoteBus.m in Sources */,
-				F5BFEF1D1B06445300D8E0FE /* RBSupportChecker.m in Sources */,
-				F5BFEF1B1B06445300D8E0FE /* RBRemoteFolder.m in Sources */,
+				F5D9795E1B076817005B550E /* RBRemoteBus.m in Sources */,
+				F5D979621B076817005B550E /* RBSupportChecker.m in Sources */,
 				F5BFEEFE1B06430700D8E0FE /* InterfaceController.m in Sources */,
-				F5BFEF1C1B06445300D8E0FE /* RBMessage.m in Sources */,
+				F5D9795C1B076817005B550E /* RBMessage.m in Sources */,
+				F5D979601B076817005B550E /* RBRemoteFolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
