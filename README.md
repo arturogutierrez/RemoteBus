@@ -33,7 +33,12 @@ Installation
 
 Pod
 -----------
-It will be available via [CocoaPods](https://github.com/cocoapods/cocoapods) very soon.
+<img src="https://cocoapod-badges.herokuapp.com/v/RemoteBus/badge.png"/><br/>
+You can install [RemoteBus](https://github.com/arturogutierrez/RemoteBus) via [CocoaPods](https://github.com/cocoapods/cocoapods):
+
+```Ruby
+pod 'RemoteBus', '~> 1.0.0'
+```
 
 Example
 -----------
